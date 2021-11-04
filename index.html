@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/gird.css">
-    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -34,7 +34,7 @@
         </header>
 
         <!-- banner -->
-        <div class="main-banner" style="background-image: url('https://preview.colorlib.com/theme/voyage/images/xbg_4.jpg.pagespeed.ic.hL7UeRF6vC.webp')">
+        <!-- <div class="main-banner" style="background-image: url('https://preview.colorlib.com/theme/voyage/images/xbg_4.jpg.pagespeed.ic.hL7UeRF6vC.webp')">
           <div class="grid wide">
             <div class="text-banner" data-aos-once="true" data-aos="fade-down">
                 <br>
@@ -43,6 +43,29 @@
                 Just for you
             </div>
           </div>
+        </div> -->
+
+        <div class="slider">
+          <i class="fas fa-chevron-left slider-left"></i>
+
+          <div class="slider-wrapper">
+            <div class="slider-main">
+              <div class="slider-item" style="background-image: url('https://preview.colorlib.com/theme/voyage/images/xbg_4.jpg.pagespeed.ic.hL7UeRF6vC.webp')">
+                <div class="slider-item-overlay"></div>
+                <span class="slider-item-text">Experience the best trip ever</span>
+              </div>
+              <div class="slider-item" style="background-image: url('https://preview.colorlib.com/theme/voyage/images/xbg_1.jpg.pagespeed.ic.GQT90DL5zP.webp')">
+                <div class="slider-item-overlay"></div>
+                <span class="slider-item-text">Making the most out of your holiday</span>
+              </div>
+              <div class="slider-item" style="background-image: url('https://preview.colorlib.com/theme/voyage/images/xbg_3.jpg.pagespeed.ic.hL7UeRF6vC.webp')">
+                <div class="slider-item-overlay"></div>
+                <span class="slider-item-text">Travel Operator Just For You</span>
+              </div>
+            </div>
+          </div>
+
+          <i class="fas fa-chevron-right slider-right"></i>
         </div>
 
         <!-- desciption -->
@@ -265,7 +288,7 @@
     </div>
     
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script src=".assets/js/app.js"></script>
+    <script src="./assets/js/app.js"></script>
     <script>
       // kéo thanh header
       $(document).ready(function(){
@@ -277,6 +300,7 @@
           }
         });
       });
+      
     </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
